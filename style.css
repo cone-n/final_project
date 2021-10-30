@@ -1,0 +1,919 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Merriweather', serif;;
+}
+a:link{
+    color:#fff;
+}
+a:active{
+    color:#FFF;
+}
+nav a:link{
+    
+        color:#FFF;
+}
+nav{
+    text-align: center;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
+    background:rgba(32, 32, 32, 0.4);
+}
+nav ul{
+    margin: 0;
+    padding:15px;
+}
+nav ul li {
+    display: inline-block;
+    color:#FFF;
+}
+nav a{
+    color:#FFF;
+    text-decoration: none;
+    font-size:21px;
+    padding:15px;
+}
+#hero{
+    height: 100vh;
+    background-image: url(img/nasa-Q1p7bh3SHj8-unsplash.jpg) ;
+    background-size: cover;
+    text-align: center;
+    color:#FFF;
+
+}
+#hero h1{
+    padding:200px 0px 75px 0px;
+    z-index: 1000;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-text{
+    z-index: 10;
+    position: relative;
+}
+.orbits{
+    text-align: center;
+}
+.orbits-text{
+    display: inline-block;
+    width:50%;
+}
+.hero-text button{
+    float:left;
+    padding:20px;
+    margin:150px 400px;
+    text-decoration: none;
+    font-size:24px;
+}
+.hero-text a:link{
+    color:#fff;
+}
+.orbits-satelit{
+    display: inline-block;
+    height: 500px;
+}
+
+.parallax-window{
+    height: 600px;
+    background: transparent;
+}
+.mars{
+    height: 800px;
+    background-image:url(img/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.apod{
+    text-align: center;
+    padding-top:150px;
+    width:80%;
+    margin:0 auto;
+}
+.roverimg{
+    width:80%;
+    margin:0 auto;
+    padding-top:150px;
+}
+
+.roverimg img{
+    width:100%;
+}
+.rover-img-wrapper{
+    width:400px;
+    height: 400px;
+}
+.marswrapper{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mars/mars_planet_PNG38.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color:#fff;
+}
+.mars-text{
+    padding:200px 150px;
+    width:50%;
+    float: right;
+}
+.nes{
+    background-image:url(img/rings_of_saturn.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nes img{
+    z-index: 100;
+    height: 1500px;
+    position: relative;
+    margin-top:-50%;
+}
+.nes h1{
+    color:#fff;
+    font-size:60px;
+    margin-left:20%;
+    margin-top:10%;
+}
+.satelit3 img{
+    height:40%;
+    
+}
+#hero .btn{
+    padding:20px;
+}
+.btn a{
+    color:#fff;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+.btn a:hover{
+    color:#000;
+}
+.satelit3{
+    float: right;
+    margin-top:25%;
+}
+.nes-text{
+   width: 39%;
+     display: inline-block;
+}
+.texth1 {
+    margin:250px 0px;
+}
+.nes-text p{
+    font-size: 20px;
+    padding:50px 0px;
+    color:#fff;
+}
+#button1{
+    background: #000;
+    color:#fff;
+    padding:10px 30px;
+}
+#button1:hover{
+    background:#fff;
+    color:#000;
+    border:solid 0.1px #000;
+}
+footer{
+    background-image: url(img/back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: 500px;
+}
+
+/* MARS PAGE */
+.why-mars-cover{
+    width:100%;
+    height: 100%;
+    background-image: url(img/mars/mars_planet_PNG38.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#mars-body{
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-mars{
+    height: 100vh;
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg) ;
+    background-size: cover;
+    text-align: left;
+    color:#FFF;
+    background-attachment: fixed;
+
+}
+.hero-mars img{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.hero-mars h1{
+    padding-top:400px;
+    font-size:95px;
+    margin-left:200px;
+    font-family: 'Orbitron', sans-serif;
+    color:rgb(179, 34, 34);
+}
+.hero-mars p{
+    margin-left:200px;
+    padding:50px 0px;
+    width:600px;
+}
+.hero-mars-sol{
+    text-align: center;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    padding:35px;
+    overflow: hidden;
+}
+.sol{
+    width: 250px;
+    display: inline-block;
+    padding:15px;
+    text-align: center;
+}
+.sol p{
+    width:150px;
+    margin:0 auto;
+    padding:0px;
+    color:rgb(179, 34, 34);
+    font-size: 25px;
+}
+.why-mars{
+    background-image:url(img/back2.jpg);
+    background-size: cover;
+    width:100%;
+    background-attachment: fixed;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    clear: both;
+    text-align: center;
+}
+.mars-text2{
+    display: inline-block;
+    width:40%;
+    z-index:100;
+    color:#FFF;
+    padding:40px;
+    font-size:27px;
+    height: 600px;
+    overflow:scroll;
+    overflow-x:hidden;
+    margin-top:100px;
+}
+.mars-text2 h1{
+    color:rgb(179, 34, 34);
+}
+.mars-img{
+    float: right;
+    width:30%;
+    z-index:100;
+    padding:100px 0px;
+    margin-right: 100px;
+}
+.mars-shade{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.1);
+    z-index:100;
+
+}
+.mars-kartice{
+    text-align: center;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    
+}
+.mars-kartica{
+    height:350px;  
+    box-sizing: border-box;
+     width: 33.33%;
+    border: 1px solid black;
+    float:left;
+    position: relative;
+    margin:0px;
+    
+}
+.mars-kartica h1{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#fff;
+}
+.mars-kartica img{
+    width:100%;
+    height: 100%;
+}
+.mars-kartica:hover{
+    transform: scale(1.1);
+}
+.mars-rover{
+    background-image: url(img/mars/teahub.io-mars-iphone-wallpaper-2101992.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rover{
+    width:450px;
+    background:rgba(0, 0, 0, 0.4);
+    padding:20px;
+    height: 90vh;
+    display: block;
+}
+.rover img{
+    width: 80%;
+}
+.mars-rover p{
+    color:#FFF;
+    width: 300px;
+    font-size:17px;
+}
+.rover h2{
+   color: rgb(179, 34, 34);
+}
+.rover-link{
+    text-align:center;
+    width: 100%;
+    padding:50px;
+}
+.rover-link h1{
+    padding:20px 0px 60px 0px;
+}
+.rover-link a{
+    text-decoration: none;
+    border:solid 3px rgb(179, 34, 34);
+    padding:20px 30px;
+    font-size:30px;
+    margin:50px;
+    color:#000;
+    border-radius: 5px;
+}
+.rover-link a:hover{
+    background:rgb(179, 34, 34);
+    color:#fff;
+}
+.mars-humans{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/mars/SpaceX\ stainless\ steel\ Starships\ at\ Mars\ Base\ Alpha\ by\ William\ Falconer-Beach.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align:center;
+    color:#FFF;
+    overflow: hidden;
+}
+.mars-humans-text{
+    padding:200px;
+    width:70%;
+    display: inline-block;
+    background:rgba(0, 0, 0, 0.4);
+}
+.mars-humans-text p{
+    padding:50px 0px;
+}
+.mars-humans h2{
+    color:rgb(179, 34, 34);
+    font-size:30px;
+    padding:50px 0px;
+}
+/* END MARS PAGE */
+
+
+/* ABOUT PAGE */
+.about{
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    padding-top:100px;
+    text-align: center;
+    color:#fff;
+    background:#000;
+}
+.about h1{
+    padding-bottom: 100px;
+}
+.about-wrapper{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about img{
+    float: left;
+    width: 100%;
+    
+}
+.about-text{
+    width:50%;
+    text-align: center;
+    display: inline-block;
+    padding:50px;
+}
+.about-img{
+    width:400px;
+    height: 400px;
+    display: inline-block;
+}
+.about-icons{
+    clear: both;
+    padding:350px 0px 50px 0px;
+}
+.about-icons i{
+    font-size:50px;
+    margin:0px 30px;
+}
+.about-icons i:hover{
+    color: rgb(179, 34, 34);
+}
+.about-mapa{
+    width:100%;
+    height: 400px;
+}
+.about-mapa iframe{
+    width: 100%;
+    height: 100%;
+}
+/* END ABOUT PAGE */
+
+/* FORM */
+    .forma{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(img/slide2.jpg);
+        background-size:cover;
+    }
+    
+    .forma-text{
+        background:rgba(0, 0, 0, 0.5);
+        color:#FFF;
+        width:60%;
+        height: 65%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ftext{
+        margin:35px 0px; 
+    }
+    .ftext input{
+        background:none;
+        border:none;
+        border-bottom:1px solid #fff;
+        color:#fff;
+    }
+    .ftext span{
+        float: right;
+        padding:20px;
+    }
+    form span{
+        display: block;
+    }
+    #btnn{
+        padding:0px 30px;
+    }
+/* END FORM */
+.footer-nav{
+    width:100%;
+    
+}
+.footer-nav ul{
+    padding:75px;
+    float:left;
+}
+.footer-nav ul li{
+    list-style: none;
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:24px;
+}
+.footer-icons{
+    padding: 150px;
+}
+.footer-icons i{
+    color:#fff;
+    font-size:40px;
+    float:right;
+    margin:0px 40px;
+}
+.footer-icons i:hover{
+    color:rgb(179, 34, 34);
+}
+.cp{
+    width: 100%;
+    color:#fff;
+    clear: both;
+    text-align: center;
+}
+
+
+
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+@media only screen and (min-width: 1200px) and (max-width: 1650px){     
+    .hero-text{
+        width:70%;
+        margin:auto;
+    }
+
+    .nes-wrapper{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .texth1{
+        margin:50px 0px;
+    }
+    .nes-wrapper img{
+        display: none;
+    }
+    .nes-text{
+        width:60%;
+        margin:0 auto;
+    }
+    .hero-text .btn{
+        width:150px;
+        float:right;
+    }
+    .hero-mars h1{
+        padding-top:500px;
+        margin-left:200px;
+    }
+
+    .hero-mars img{
+        display: block;
+        margin:0 auto;
+        position: absolute;
+        
+    }
+    .mars-text2{
+        margin-right:50px;
+        width:60%;
+    }
+    .mars-humans-text{
+        width:100%;
+        padding:50px;
+        height: 100%;
+    }
+    .about-text{
+        width:40%;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .hero-text{
+        width:70%;
+        margin:auto;
+    }
+    .hero-text .btn{
+        width:150px;
+        float:right;
+    }
+    .btn-outline-light{
+        margin-left:0x;
+    }
+    .orbits-text{
+        padding-top:75px;
+    }
+    .mars-text{
+        padding:120px 50px 120px 120px;
+        width:50%;
+    }
+
+    .nes-wrapper{
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    .texth1{
+        margin:50px 0px;
+    }
+    .nes-wrapper img{
+        display: none;
+    }
+    .nes-text{
+        width:60%;
+        margin:0 auto;
+    }
+    .hero-mars h1{
+        padding-top:500px;
+        margin-left:200px;
+    }
+    .mars-text2{
+        margin-right:50px;
+        margin-left: 50px;
+        width:60%;
+        
+    }
+    .mars-humans-text{
+        width:100%;
+        padding:50px;
+        height: 100%;
+    }
+    
+    }/* end 1025 1200 */
+
+    @media only screen and (min-width: 769px) and (max-width: 1024px){
+        .hero-text{
+            width:80%;
+            margin:auto;
+        }
+        .hero-text .btn{
+            width:200px;
+            float:right;
+        }
+        .orbits-text{
+            padding-top:75px;
+        }
+        .nes-wrapper{
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        .texth1{
+            margin:50px 0px;
+        }
+        .nes-wrapper img{
+            display: none;
+        }
+        .nes-text{
+            width:60%;
+            margin:0 auto;
+        }
+
+        .mars-text{
+            padding:120px 50px 120px 120px;
+            width:70%;
+            font-size:21px;
+        }
+        .hero-mars img{
+            width:95%;
+        }
+        .hero-mars h1{
+            padding-top:450px;
+            margin-left:200px;
+        }
+        .hero-mars p{
+            margin-left:50px;
+        }
+        .hero-mars-sol{
+            padding-top:100px;
+        }
+        .sol{
+            width:200px;
+        }
+        .sol p{
+            margin:0px;
+        }
+        .mars-kartica{
+            width: 100%;
+        }
+        .mars-text2{
+            margin-right:50px;
+            width:60%;
+        }
+        .mars-humans-text{
+            width:100%;
+            padding:50px;
+            height: 100%;
+        }
+        .mars-rover{
+            display: block;
+            width:100%;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
+        .rover{
+            display: block;
+            width: 100%;
+            padding:0px;
+            text-align: center;
+            margin:0 auto;
+            padding:50px;
+        }
+        .rover p{
+            width:100%;
+        }
+        .rover img{
+            padding-top:100px;
+            width:50%;
+        }
+        
+        .mars-rover::after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+    } /* end 769px — 1024 */
+
+    @media only screen and (min-width: 481px) and (max-width: 768px){
+
+        .hero-text{
+            width:80%;
+            margin:auto;
+        }
+        .hero-text .btn{
+            width:200px;
+            float:none;
+            margin:50px 0px;
+        }
+        .orbits-text{
+            padding-top:75px;
+        }
+        .orbits-satelit img{
+            width:95%;
+        }
+        .nes-wrapper{
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        .texth1{
+            margin:50px 0px;
+        }
+        .nes-wrapper img{
+            display: none;
+        }
+        .nes-text{
+            width:90%;
+            margin:0 auto;
+        }
+
+        .mars-text{
+            padding:120px 50px 120px 120px;
+            width:90%;
+            font-size:19px;
+        }
+        .nes-text iframe{
+            width:100%;
+        }
+
+
+        .hero-mars img{
+            width:95%;
+        }
+        .hero-mars h1{
+            padding-top:400px;
+            margin-left:50px;
+        }
+        .hero-mars p{
+            margin-left:50px;
+            width: 90%;
+        }
+        .hero-mars-sol{
+            padding-top:100px;
+        }
+        .sol{
+            width:30%;
+            text-align: center;
+        }
+        .sol p{
+            margin:0px;
+        }
+        .sol h2{
+            font-size:20px;
+        }
+        #sol1{
+            margin-left:0px;
+        }
+        .mars-kartica{
+            width: 100%;
+        }
+        .mars-text2{
+            margin-right:50px;
+            width:80%;
+        }
+        .mars-rover{
+            display: block;
+            width:100%;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
+        .rover{
+            display: block;
+            width: 100%;
+            padding:0px;
+            text-align: center;
+            margin:0 auto;
+            padding:50px;
+        }
+        .rover p{
+            width:100%;
+        }
+        .rover img{
+            padding-top:100px;
+            width:50%;
+        }
+        
+        .mars-rover::after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        .mars-humans-text{
+            width:100%;
+            padding:50px;
+            height: 100%;
+        }
+    }
+    /* 481px — 768px: */
+
+    @media only screen and (min-width: 320) and (max-width: 480px){
+        .hero-text{
+            width:80%;
+            margin:auto;
+        }
+        .hero-text .btn{
+            width:200px;
+            float:none;
+            margin:50px 0px;
+        }
+        .orbits-text{
+            padding-top:75px;
+        }
+        .orbits-satelit img{
+            width:95%;
+        }
+        .nes-wrapper{
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        .texth1{
+            margin:50px 0px;
+        }
+        .nes-wrapper img{
+            display: none;
+        }
+        .nes-text{
+            width:90%;
+            margin:0 auto;
+        }
+
+        .mars-text{
+            padding:120px 50px 120px 120px;
+            width:90%;
+            font-size:19px;
+        }
+        .nes-text iframe{
+            width:100%;
+        }
+        .mars-kartica{
+            width: 100%;
+        }
+        .mars-text2{
+            margin-right:50px;
+            width:80%;
+        }
+
+
+        .mars-rover{
+            display: block;
+            width:100%;
+            height: 100%;
+            padding: 0px;
+            text-align: center;
+        }
+        .rover{
+            display: block;
+            width: 100%;
+            padding:0px;
+            text-align: center;
+            margin:0 auto;
+            padding:50px;
+        }
+        .rover p{
+            width:100%;
+        }
+        .rover img{
+            padding-top:100px;
+            width:50%;
+        }
+        
+        .mars-rover::after{
+            display: table;
+            content: "";
+            clear: both;
+        }
+        .mars-humans-text{
+            width:100%;
+            padding:50px;
+            height: 100%;
+        }
+    }
+
+    /* 320px — 480 */

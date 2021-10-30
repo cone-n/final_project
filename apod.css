@@ -1,0 +1,9 @@
+body{
+    padding:0;
+}
+.wrapper{
+    width: 1350px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:300px;
+}

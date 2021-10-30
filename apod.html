@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        
+    </head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mars.html">Mars mission</a></li>
+          <li><a href="apod.html">Api</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="login.html">login</a></li>
+        </ul>
+      </nav>
+    
+    
+      <div class="apod">
+        <h1>NASA Astronomy Picture Of The Day</h1>
+        <h2 id="title"></h2>
+        <h3>Date: <span id="date"></span></h3>
+        <img id="pic" src="" alt="NASA Picture Of The Day" width="100%">
+        <p id="explanation"></p>
+      </div>
+
+    
+      <div class="roverimg">
+          <p>Opportunity rover:</p>
+          <p>Landing date	January 25, 2004, 05:05 UTC SCET MSD 46236 14:35 AMT</p>
+          <p>Last contact	June 10, 2018</p>
+          <p>Curriosity rover:</p>
+          <p>landing date August 5, 2012</p>
+            <p>Spirit rover</p>
+            <p>landing January 3, 2004</p>
+            <p>last contact March 22, 2010</p>
+        <form>
+            <fieldset>
+              <legend>Date Input (YYYY-MM-DD)</legend>
+              <label for="dateValue"></label>
+              <input type="text" name="dateValue" id="dateValue">
+              <p>Rover Selection
+                  <br />
+                  <label>
+                      <input type="radio" id="button1" name="rover" value="curioustity" />Curioustity</label>
+                  <label>
+                      <input type="radio" id="button2" name="rover" value="opportunity" />Opportunity</label>
+                  <label>
+                      <input type="radio" id="button3" name="rover" value="spirit" />Spirit</label>
+              </p>
+              <input type="submit" id="dateInput">
+    
+            </fieldset>
+    
+          </form>
+    <span>Image Retrieval Status: </span><span id="imageStatus"></span>
+    <br>
+    <span>Rover Name: </span><span id="roverCaption"></span>
+    <br>
+    <span>Landing Date: </span><span id="landingCaption"></span>
+    <br>
+    <span>Expected End Date: </span><span id="endingCaption"></span>
+    <br>
+    <h2>Rover Image</h2>
+    <div class="rover-img-wrapper">
+        <img id="imageID" src=""/>
+    </div>
+        
+      </div>
+    
+<script src="apod.js"></script>
+<script src="rover.js"></script>
+</body>
+    <footer>
+    <div class="footer-nav">
+      
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="mars.html">Mars mission</a></li>
+          <li><a href="apod.html">Api</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="login.html">login</a></li>
+        </ul>
+      
+      <div class="footer-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+      
+    </div>
+    <div class="cp">
+      <p>2021 &copy;Nemanja Nikolic 230255</p>
+    </div>
+      
+  </footer>
+    </html>
